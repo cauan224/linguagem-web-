@@ -1,5 +1,8 @@
 const mario = document.querySelector('.mario');
 const cano = document.querySelector('.cano');
+const pontuacao = document.querySelector('.number');
+
+
 
 const jump =()=> {
     mario.classList.add('jump');
@@ -12,6 +15,7 @@ const jump =()=> {
 }
 
 const loop = setInterval(() => {
+
 
     
     const canoPosition = cano.offsetLeft;
